@@ -1,0 +1,114 @@
+# Visual Studio Code設定・プラグイン
+
+## 設定
+{
+    "workbench.welcome.enabled": false,
+    "editor.fontFamily": "'SourceHanCodeJP-Normal', Menlo, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 15,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": false,
+    "editor.formatOnSave": false,
+    "editor.autoIndent": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "editor.renderIndentGuides": true,
+    "editor.rulers": [80, 120],
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.wordWrap": "on",
+    "explorer.openEditors.visible": 0,
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    //"files.autoGuessEncoding": true,
+    "files.trimTrailingWhitespace": true,
+    "files.defaultLanguage": "php",
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/node_modules/**": true,
+        "**/vendor/**": true
+    },
+    "html.format.endWithNewline": true,
+    "html.format.contentUnformatted": "pre, script",
+    "html.format.wrapLineLength": 0,
+    "html.suggest.angular1": false,
+    "html.suggest.ionic": false,
+    "markdown.preview.fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "[php]": {
+        "editor.tabSize": 2
+    },
+    "html.format.indentHandlebars": true,
+    "[markdown]": {
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": false,
+        "files.trimTrailingWhitespace": false
+    },
+    "trailing-spaces.regexp": "[　 \t]+",
+    "php.validate.run": "onType",
+    "php.executablePath": "C:\\Users\\hrdaya\\PHP71\\php.exe",
+    "phpmd.rules": "ruleset.xml",
+    "php-cs-fixer.executablePath": "C:\\Users\\hrdaya\\PHP71\\php-cs-fixer.phar",
+    "window.newWindowDimensions": "inherit",
+    "window.openFoldersInNewWindow": "on",
+    "workbench.colorTheme": "Material Theme",
+    "workbench.iconTheme": "eq-material-theme-icons",
+    "csscomb.formatOnSave": true,
+    "csscomb.useLatestCore": true,
+    "files.associations": {
+        ".php_cs": "php",
+        "*.vue": "vue",
+        "*.scss": "scss"
+    },
+    "emmet.preferences": {
+        "css.autoInsertVendorPrefixes": false
+    },
+    "emmet.syntaxProfiles":{
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "emmet.variables": {
+        "lang": "ja"
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.vagrant": true
+    },
+    "window.zoomLevel": 1,
+    "css.validate": false,
+    "TodoParser": {
+        "markers": ["@todo"]
+    },
+    "todohighlight.keywords": [
+    {
+        "text": "@todo",
+        "color": "#333",
+        "backgroundColor": "#ffab00",
+        "borderRadius": "2px",
+        "overviewRulerColor": "grey"
+    }
+    ]
+}
+
+
+## プラグイン
+・Auto Close Tag
+・Auto Rename Tag
+・AutoFileName
+・Beautify
+・Color Highlight
+・EvilInspector
+・File Peek
+・HTML Class Suggestions
+・HTML CSS Support
+・HTML Snippets
+・indent-rainbow
+・IntelliSense for CSS
+・jQuery Code Snippets
+・Material Icon Theme
+・Material Theme
+・Path Intellisense
+・Sublime Text Keymap
+・Trailing Spaces
